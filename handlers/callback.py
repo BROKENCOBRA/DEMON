@@ -21,7 +21,7 @@ async def cbstart(_, query: CallbackQuery):
             [ 
                 [
                     InlineKeyboardButton(
-                        "😚 ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛꜱ ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "😚 ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛꜱ ✨", url=f"https://t.me/nucleas_musicbot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "😋ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="cbhowtouse")
