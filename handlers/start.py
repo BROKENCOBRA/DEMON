@@ -87,7 +87,7 @@ async def start(client: Client, message: Message):
                         "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/swagpartners_xd"
                     ),
                     InlineKeyboardButton(
-                        "📣 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/shivamdemon"
+                        "📣 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/shivamdemon"
                     )
                 ]
             ]
@@ -160,7 +160,7 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text(" ᴘɪɴɴɢ...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "𝚣 `ᴘᴏɴɢ!!`\n"
+        "`ᴘᴏɴɢ!!`\n"
         f"🇩   `{delta_ping * 1000:.3f} ᴍꜱ`"
     )
 
@@ -172,7 +172,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 ᴢᴀɪᴅ ꜱᴛᴀᴛᴜꜱ:\n"
+        "🤖 ᴅᴇᴍᴏɴ ꜱᴛᴀᴛᴜꜱ:\n"
         f"• **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
         f"• **ꜱᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`"
     )
