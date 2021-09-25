@@ -30,16 +30,16 @@ async def cbstart(_, query: CallbackQuery):
                          "👀 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 ᴏᴡɴᴇʀ", url=f"https://t.me/Timesisnotwaiting")
+                        "💝 ᴏᴡɴᴇʀ", url=f"https://t.me/shivamdemon")
                 ],[
                     InlineKeyboardButton(
-                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Zaid_Support"
+                        "👥 ᴀɴʏ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/shivamdemon"
                     ),
                     InlineKeyboardButton(
-                        "📣 ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Zaid_Updates")
+                        "📣 ᴍᴏʀᴇ ɪɴғᴏ", url=f"https://t.me/alone_boy_xd_01")
                 ],[
                     InlineKeyboardButton(
-                        "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴘ", url="https://t.me/Zaid_team1")
+                        "😈 ɢʀᴏᴜᴘ", url="https://t.me/swagpartners_xd")
                 ],[
                     InlineKeyboardButton(
                         "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://github.com/Itsunknown-12/Zaid-Vc-Player"
@@ -102,7 +102,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>🏮 here is the basic commands</b>
 
-🎧 [ ᴢᴀɪᴅ ɢʀᴘ ᴄᴍᴅꜱ ]
+🎧 [ ɢʀᴘ ᴄᴍᴅꜱ ]
 
 /play (song name) - play song from youtube
 /ytp (song name) - play song directly from youtube 
