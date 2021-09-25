@@ -32,8 +32,8 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ **𝐁𝐡𝐞𝐥𝐜𝐨𝐦𝐞 {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐳𝐚𝐢𝐝!**
+        f"""<b>✨ **𝗪𝐞𝐥𝐜𝐨𝐦𝐞 𝗧𝗼 𝗗𝗲𝗺𝗼𝗻 𝗠𝘂𝘀𝗶𝗰{message.from_user.first_name}** \n
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [𝐒𝐇𝐈𝐕](https://t.me/shivamdemon)🤟🤟!**
 
 💡 **𝗙𝗶𝗻𝗱 𝗼𝘂𝘁 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗕𝗼𝘁'𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘆 𝗰𝗹𝗶𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 » 📚 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
 
@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛꜱ 😄", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛꜱ 😄", url=f"https://t.me/NUCLEAS_MUSICBOT?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "😢 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="cbhowtouse")
@@ -52,19 +52,19 @@ async def start_(client: Client, message: Message):
                          "😄 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Timesisnotwaiting")
+                        "💝 ᴏᴡɴᴇʀ", url=f"https://t.me/shivamdemon")
                 ],[
                     InlineKeyboardButton(
-                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Zaid_Support"
+                        "👥  ᴀɴʏ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/shivamdemon"
                     ),
                     InlineKeyboardButton(
-                        "🔥 ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Zaid_Updates")
+                        "🔥 ᴍᴏʀᴇ ɪɴғᴏ", url=f"https://t.me/alone_boy_xd_01")
                 ],[
                     InlineKeyboardButton(
-                        "😁 ᴏꜰꜰɪᴄɪᴀʟ ᴢᴀɪᴅ ᴄʜᴀᴛ", url="https://t.me/Zaid_Team1")
+                        "😁 ɢʀᴏᴜᴘ", url="https://t.me/swagpartners_xd")
                 ],[
                     InlineKeyboardButton(
-                        "😉 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ😍", url="https://github.com/Itsunknown-12/Zaid-Vc-Player"
+                        "😉 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ😍", url="https://t.me/shivamdemon"
                     )
                 ]
             ]
@@ -79,15 +79,15 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **ᴢᴀɪᴅ ɪꜱ ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
+        f"""✅ **ᴅᴇᴍᴏɴ ɪꜱ ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Zaid_Support"
+                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/swagpartners_xd"
                     ),
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Zaid_Updates"
+                        "📣 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/shivamdemon"
                     )
                 ]
             ]
@@ -101,7 +101,7 @@ async def help(client: Client, message: Message):
 
 **Please press the button below to read the explanation and see the list of available commands powered By Zaid!**
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ""",
+⚡ __Powered by {BOT_NAME} ᴅᴇᴍᴏɴ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -120,7 +120,7 @@ async def help_(client: Client, message: Message):
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
-⚡ __Powered by {BOT_NAME} Zaid__""",
+⚡ __Powered by {BOT_NAME} Demon__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -157,11 +157,11 @@ async def help_(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("ᴢ ᴘɪɴɴɢ...")
+    m_reply = await message.reply_text(" ᴘɪɴɴɢ...")
     delta_ping = time() - start
     await m_reply.edit_text(
         "𝚣 `ᴘᴏɴɢ!!`\n"
-        f"🇿  `{delta_ping * 1000:.3f} ᴍꜱ`"
+        f"🇩   `{delta_ping * 1000:.3f} ᴍꜱ`"
     )
 
 
