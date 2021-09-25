@@ -73,7 +73,7 @@ def song(client, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ error, contact @Zaid_Support To Fix")
+        m.edit("❌ error, contact @shivamdemon To Fix")
         print(e)
 
     try:
@@ -257,7 +257,7 @@ async def ytmusic(client, message: Message):
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"💡 __Getting {urlissed} from zaid server, please wait...__"
+        message.chat.id, f"💡 __Getting {urlissed} from server, please wait...__"
     )
     if not urlissed:
         await pablo.edit("invalid command syntax, please check help menu to know more!")
