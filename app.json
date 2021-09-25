@@ -1,9 +1,9 @@
 {
-    "name": "ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ",
+    "name": "ᴅᴇᴍᴏɴ ᴠᴄ ᴘʟᴀʏᴇʀ",
     "logo": "https://telegra.ph/file/a5efad6976ca08e71ef69.jpg",
-    "description": "ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ ɪꜱ ᴀᴡᴇꜱᴏᴍᴇ ᴠᴄ ᴄʜᴀᴛ ᴘʟᴀʏᴇʀ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.",
-    "keywords": ["ᴢᴀɪᴅ", "ᴠᴏɪᴄᴇ ᴄʜᴀᴛ", "ᴛᴇʟᴇɢʀᴀᴍ"],
-    "repository": "https://github.com/Itsunknown-12/Zaid-Vc-Player",
+    "description": "ᴅᴇᴍᴏɴ ᴠᴄ ᴘʟᴀʏᴇʀ ɪꜱ ᴀᴡᴇꜱᴏᴍᴇ ᴠᴄ ᴄʜᴀᴛ ᴘʟᴀʏᴇʀ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.",
+    "keywords": ["ᴅᴇᴍᴏɴ", "ᴠᴏɪᴄᴇ ᴄʜᴀᴛ", "ᴛᴇʟᴇɢʀᴀᴍ"],
+    "repository": "https://github.com/BROKENCOBRA/Zaid-Vc-Player",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
