@@ -132,7 +132,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(chat_id)
-        await message.reply_text("⏹ ᴇɴᴅᴇᴅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴀɪᴅ!")
+        await message.reply_text("⏹ ᴇɴᴅᴇᴅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ!")
 
 
 @Client.on_message(command("skip") & other_filters)
@@ -210,7 +210,7 @@ async def delcmdc(_, message: Message):
         else:
             await delcmd_on(chat_id)
             await message.reply_text(
-                "🟢 ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴀɪᴅ"
+                "🟢 ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ"
             )
     elif status == "off":
         await delcmd_off(chat_id)
