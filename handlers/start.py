@@ -1,10 +1,10 @@
 from time import time
 from datetime import datetime
-from DEMON.config import BOT_USERNAME, BOT_NAME, ASSISTANT_NAME, OWNER_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
-from DEMON.helpers.filters import command
+from config import BOT_USERNAME, BOT_NAME, ASSISTANT_NAME, OWNER_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
+from helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
-from DEMON.helpers.decorators import sudo_users_only
+from helpers.decorators import sudo_users_only
 
 
 START_TIME = datetime.utcnow()
