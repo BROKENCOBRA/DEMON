@@ -9,4 +9,4 @@ RUN mkdir /app/
 COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U -r requirements.txt
-CMD python3 -m main.py
+CMD python3 main.py
